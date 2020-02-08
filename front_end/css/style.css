@@ -85,6 +85,14 @@ img {
 	max-width: 100%;
 }
 
+#movieimg {
+	width: 268px;
+	height: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 input:focus,
 select:focus,
 button:focus,
@@ -259,7 +267,7 @@ ol {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.5);
+	background: #121640;
 	content: "";
 	z-index: -1;
 }
@@ -455,9 +463,14 @@ ol {
 -----------------------*/
 
 .single-slide {
-	height: 895px;
-	padding-top: 343px;
+	height: 600px;
+	padding-top: 40px;
 	text-align: center;
+}
+
+#ourpick {
+	height: 100px;
+	padding-top:30px;
 }
 
 .single-slide .play-btn {
@@ -479,9 +492,9 @@ ol {
 	color: #fff;
 	font-size: 130px;
 	font-weight: 500;
-	margin-bottom: 45px;
+	margin-bottom: 15px;
 	position: relative;
-	top: 50px;
+	top: 5px;
 	opacity: 0;
 }
 
@@ -565,7 +578,7 @@ ol {
 	background: #ff5757;
 	border-radius: 50%;
 	line-height: 83px;
-	margin-bottom: 40px;
+	margin-bottom: 5px;
 	margin-top: -34px;
 }
 
@@ -575,7 +588,7 @@ ol {
 	font-weight: 700;
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
-	margin-bottom: 22px;
+	margin-bottom: 2px;
 }
 
 .single-features .feature-text p {
@@ -967,7 +980,10 @@ ol {
 .footer-content .footer-icon-img {
 	margin-bottom: 32px;
 }
-
+.footer-icon-img{
+	width: 20%;
+	height: auto;
+}
 .footer-content .copyright {
 	color: #fff;
 	font-size: 13px;
@@ -2140,11 +2156,11 @@ ol {
 		padding: 0;
 	}
 	.slicknav_nav {
-		background: #222;
-		padding: 25px;
+		background: #ff5757;
+		padding: 5px;
 	}
 	.slicknav_btn {
-		margin: 5px 5px 30px;
+		margin: 5px 5px 5px;
 		border-radius: 0;
 		float: right;
 		background-color: #ff5757;
@@ -2183,17 +2199,18 @@ ol {
 	}
 	.search-btn:hover {
 		background: #ccc;
-		color: #222;
+		color: #ff5757;
 	}
 	.single-slide h1 {
 		font-size: 65px;
+		padding: 5px;
 	}
 	.features-section .single-features {
 		text-align: center;
-		margin-bottom: 50px;
+		margin-bottom: 5px;
 	}
 	.features-section.spad {
-		padding-bottom: 40px;
+		padding-bottom: 5px;
 	}
 	.about-us-area .about-text {
 		margin-bottom: 40px;
