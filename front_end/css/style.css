@@ -114,7 +114,7 @@ ol {
 }
 
 .section-title span {
-	color: #233EDE;
+	color: #ff5757;
 	font-size: 12px;
 	font-weight: 900;
 	letter-spacing: 6px;
@@ -173,7 +173,7 @@ ol {
 	font-weight: 700;
 	padding: 20px 50px;
 	color: #fff;
-	background: #233EDE;
+	background: #ff5757;
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
 }
@@ -436,8 +436,8 @@ ol {
 
 .search-bar-wrap .search-bar-inner button {
 	height: 50px;
-	border: 1px solid #233EDE;
-	background: #233EDE;
+	border: 1px solid #ff5757;
+	background: #ff5757;
 	color: #fff;
 	width: 100px;
 	cursor: pointer;
@@ -462,7 +462,7 @@ ol {
 
 .single-slide .play-btn {
 	color: #fff;
-	background: #233EDE;
+	background: #ff5757;
 	display: inline-block;
 	height: 56px;
 	width: 56px;
@@ -562,7 +562,7 @@ ol {
 	display: inline-block;
 	height: 88px;
 	width: 88px;
-	background: #233EDE;
+	background: #ff5757;
 	border-radius: 50%;
 	line-height: 83px;
 	margin-bottom: 40px;
@@ -661,7 +661,7 @@ ol {
 	left: 15px;
 	top: 0;
 	padding: 37px 40px;
-	background: #233EDE;
+	background: #ff5757;
 	cursor: pointer;
 }
 
@@ -750,10 +750,10 @@ ol {
 
 .membership-card {
 	height: 503px;
-	border-top: 22px solid #233EDE;
-	border-left: 24px solid #233EDE;
-	border-bottom: 21px solid #233EDE;
-	border-right: 20px solid #233EDE;
+	border-top: 22px solid #ff5757;
+	border-left: 24px solid #ff5757;
+	border-bottom: 21px solid #ff5757;
+	border-right: 20px solid #ff5757;
 }
 
 .membership-card .bg-img img {
@@ -789,7 +789,7 @@ ol {
 }
 
 .membership-card .membership-details .discount h1 {
-	color: #233EDE;
+	color: #ff5757;
 	font-size: 72px;
 	font-weight: 700;
 }
@@ -936,8 +936,8 @@ ol {
 
 .footer-content .subscribe-form button {
 	color: #fff;
-	background: #233EDE;
-	border: 1px solid #233EDE;
+	background: #ff5757;
+	border: 1px solid #ff5757;
 	font-size: 14px;
 	text-transform: uppercase;
 	height: 100%;
@@ -981,7 +981,7 @@ ol {
 }
 
 .footer-content .copyright i {
-	color: #233EDE;
+	color: #ff5757;
 }
 
 /*---------------------  Other Pages Style  -----------------------*/
@@ -1003,7 +1003,7 @@ ol {
 }
 
 .breadcrumb-area .breadcrumb-content .links {
-	background: #233EDE;
+	background: #ff5757;
 	display: inline-block;
 	padding: 2px 17px;
 }
@@ -1191,12 +1191,12 @@ ol {
 	bottom: -28px;
 	width: 74px;
 	height: 3px;
-	background: #233EDE;
+	background: #ff5757;
 	content: "";
 }
 
 .testimonial-content .testimonial-text h4 span {
-	color: #233EDE;
+	color: #ff5757;
 }
 
 .testimonial-content .testimonial-text p {
@@ -1324,7 +1324,7 @@ ol {
 
 .single-fitness-feature .fitness-number span {
 	color: #fff;
-	background: #233EDE;
+	background: #ff5757;
 	width: 67px;
 	height: 67px;
 	display: inline-block;
@@ -1424,7 +1424,7 @@ ol {
 	left: 0;
 	top: 0;
 	opacity: 0;
-	background: #233EDE;
+	background: #ff5757;
 	-webkit-transition: 0.4s;
 	transition: 0.4s;
 }
@@ -1439,7 +1439,7 @@ ol {
 	top: 16px;
 	width: 89px;
 	height: 89px;
-	background: #233EDE;
+	background: #ff5757;
 	text-align: center;
 }
 
@@ -1533,11 +1533,11 @@ ol {
 }
 
 .single-blog-item:hover .blog-text h2 {
-	color: #233EDE;
+	color: #ff5757;
 }
 
 .single-blog-item:hover .blog-text h2 a {
-	color: #233EDE;
+	color: #ff5757;
 }
 
 .blob-pagination {
@@ -1562,7 +1562,7 @@ ol {
 
 .blob-pagination ul li a.active {
 	color: #fff;
-	background: #233EDE;
+	background: #ff5757;
 }
 
 /*---------------------
@@ -1645,7 +1645,7 @@ ol {
 }
 
 .contact-info .contact-form button {
-	background: #233EDE;
+	background: #ff5757;
 	border: none;
 	color: #fff;
 	display: block;
@@ -1692,9 +1692,9 @@ ol {
 }
 
 .button-elem .primary-btn.border-btn {
-	color: #233EDE;
+	color: #ff5757;
 	background: #fff;
-	border: 3px solid #233EDE;
+	border: 3px solid #ff5757;
 	padding: 17px 50px;
 }
 
@@ -1775,7 +1775,7 @@ ol {
 }
 
 .accordin-elem .card-heading.active {
-	background: #233EDE;
+	background: #ff5757;
 	color: #fff;
 }
 
@@ -1826,7 +1826,7 @@ ol {
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
 	color: #fff !important;
-	background-color: #233EDE;
+	background-color: #ff5757;
 }
 
 /* Milestone Counter Styles */
@@ -1921,7 +1921,7 @@ ol {
 	display: inline-block;
 	height: 88px;
 	width: 88px;
-	background: #233EDE;
+	background: #ff5757;
 	text-align: center;
 	line-height: 85px;
 	border-radius: 50%;
@@ -2147,7 +2147,7 @@ ol {
 		margin: 5px 5px 30px;
 		border-radius: 0;
 		float: right;
-		background-color: #233EDE;
+		background-color: #ff5757;
 		position: relative;
 		top: -56px;
 	}
