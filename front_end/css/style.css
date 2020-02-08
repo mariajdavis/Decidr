@@ -280,6 +280,7 @@ ol {
 	display: block;
 	width: 85px;
 	height: 85px;
+	border-radius: 20%;
 }
 
 .main-menu ul {
@@ -1930,6 +1931,7 @@ ol {
 	line-height: 85px;
 	border-radius: 50%;
 	margin-bottom: 40px;
+	border-radius: 20%;
 }
 
 .single-icon-box h5 {
@@ -2407,4 +2409,24 @@ ol {
 	.single-blog-item .blog-text h2 {
 		font-size: 20px;
 	}
+}
+
+.moodBox{
+	margin: 10%;
+}
+
+.moodBox h4{
+	color: #fff;
+}
+
+
+.max {
+    float: right;
+}
+.min {
+	float: left;
+}
+.min, .max {
+	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+	color: #fff;
 }
