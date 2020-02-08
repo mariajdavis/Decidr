@@ -1,6 +1,4 @@
 import pandas as pd
-# import numpy as np
-# import matplotlib.pyplot as plt
 from surprise import Dataset, Reader
 
 from train import get_trained_model
