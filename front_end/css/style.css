@@ -114,7 +114,7 @@ ol {
 }
 
 .section-title span {
-	color: #233EDE;
+	color: #182362;
 	font-size: 12px;
 	font-weight: 900;
 	letter-spacing: 6px;
@@ -173,7 +173,7 @@ ol {
 	font-weight: 700;
 	padding: 20px 50px;
 	color: #fff;
-	background: #233EDE;
+	background: #182362;
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
 }
@@ -187,7 +187,7 @@ ol {
 	top: 0;
 	left: 0;
 	z-index: 999999;
-	background: #000;
+	background: #182362;
 }
 
 .loader {
@@ -259,7 +259,7 @@ ol {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.5);
+	background: #182362;
 	content: "";
 	z-index: -1;
 }
@@ -351,7 +351,7 @@ ol {
 
 .top-social .top-social-links {
 	width: 121px;
-	background: #000;
+	background: #182362;
 	text-align: center;
 	padding-top: 32px;
 	padding-bottom: 19px;
@@ -366,7 +366,7 @@ ol {
 	display: inline-block;
 	width: 48px;
 	height: 48px;
-	background: #081624;
+	background: #;
 	border-radius: 50%;
 	color: #fff;
 	line-height: 48px;
@@ -385,7 +385,7 @@ ol {
 	width: 100%;
 	height: 100%;
 	z-index: 99;
-	background: #073B4C;
+	background: #182362;
 	color: #fff;
 	visibility: hidden;
 	opacity: 0;
@@ -436,8 +436,8 @@ ol {
 
 .search-bar-wrap .search-bar-inner button {
 	height: 50px;
-	border: 1px solid #233EDE;
-	background: #233EDE;
+	border: 1px solid #182362;
+	background: #182362;
 	color: #fff;
 	width: 100px;
 	cursor: pointer;
@@ -462,7 +462,7 @@ ol {
 
 .single-slide .play-btn {
 	color: #fff;
-	background: #233EDE;
+	background: #182362;
 	display: inline-block;
 	height: 56px;
 	width: 56px;
@@ -562,7 +562,7 @@ ol {
 	display: inline-block;
 	height: 88px;
 	width: 88px;
-	background: #233EDE;
+	background: #182362;
 	border-radius: 50%;
 	line-height: 83px;
 	margin-bottom: 40px;
@@ -595,7 +595,7 @@ ol {
 }
 
 .services-section {
-	background: #212122;
+	background: #182362;
 	padding-bottom: 100px;
 }
 
@@ -648,7 +648,7 @@ ol {
 	position: absolute;
 	right: 0;
 	bottom: 13px;
-	background: #212122;
+	background: #182362;
 }
 
 .trainer-img img {
@@ -661,7 +661,7 @@ ol {
 	left: 15px;
 	top: 0;
 	padding: 37px 40px;
-	background: #233EDE;
+	background: #182362;
 	cursor: pointer;
 }
 
@@ -936,8 +936,8 @@ ol {
 
 .footer-content .subscribe-form button {
 	color: #fff;
-	background: #233EDE;
-	border: 1px solid #233EDE;
+	background: #182362;
+	border: 1px solid #182362;
 	font-size: 14px;
 	text-transform: uppercase;
 	height: 100%;
@@ -981,7 +981,7 @@ ol {
 }
 
 .footer-content .copyright i {
-	color: #233EDE;
+	color: #182362;
 }
 
 /*---------------------  Other Pages Style  -----------------------*/
@@ -1003,7 +1003,7 @@ ol {
 }
 
 .breadcrumb-area .breadcrumb-content .links {
-	background: #233EDE;
+	background: #182362;
 	display: inline-block;
 	padding: 2px 17px;
 }
@@ -2140,14 +2140,14 @@ ol {
 		padding: 0;
 	}
 	.slicknav_nav {
-		background: #222;
+		background: #182362;
 		padding: 25px;
 	}
 	.slicknav_btn {
 		margin: 5px 5px 30px;
 		border-radius: 0;
 		float: right;
-		background-color: #233EDE;
+		background-color: #182362;
 		position: relative;
 		top: -56px;
 	}
