@@ -464,6 +464,12 @@ ol {
 -----------------------*/
 
 .single-slide {
+	height: 700px;
+	padding-top: 200px;
+	text-align: center;
+}
+
+.recommendation-single-slide {
 	height: 600px;
 	padding-top: 40px;
 	text-align: center;
@@ -471,7 +477,7 @@ ol {
 
 #ourpick {
 	height: 100px;
-	padding-top:30px;
+	padding-top: 80px;
 }
 
 .single-slide .play-btn {
