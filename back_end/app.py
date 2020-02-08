@@ -1,9 +1,7 @@
 from flask import Flask, jsonify
-import json
 from filter import get_model
 import pandas as pd
 from getter import get_list
-import numpy as np
 
 app = Flask(__name__)
 MODEL = get_model()
