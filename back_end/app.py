@@ -1,12 +1,12 @@
 from flask import Flask, jsonify
 import json
+from filter import get_trained_model
 
 app = Flask(__name__)
+MODEL = get_trained_model()
 
 
 @app.route('/<user_id>/<mood>/<company>')
-# def hello_world():
-#     return "Hello, World!"
 def send_all(user_id, mood, company):
     """ endpoint: takes HTTP request and return movie recommendation(s) """
     movie_recommendation = ["movie1", "movie2"]
