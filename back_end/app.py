@@ -2,8 +2,9 @@ from flask import Flask, jsonify
 from filter import get_model
 import pandas as pd
 from getter import get_list
+from flask import render_template
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='C:\\Users\\91997\\Desktop\\Hackathons\\LifeHacks\\Decidr\\front_end', static_url_path='', static_folder='C:\\Users\\91997\\Desktop\\Hackathons\\LifeHacks\\Decidr\\front_end')
 MODEL = get_model()
 MOVIES = pd.read_csv('dataset//movies.csv')
 
@@ -31,6 +32,11 @@ def send_all(user_id, mood, company):
     """ endpoint: takes HTTP request and return movie recommendation(s) """
     lst = [int(i) for i in movie_list]
     return jsonify(lst)
+
+
+@app.route('/')
+def index():
+    return render_template("index.html")
 
 
 if __name__ == '__main__':
