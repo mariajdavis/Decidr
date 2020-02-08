@@ -33,7 +33,7 @@ def send_all(user_id, mood, company):
     lst = [int(i) for i in movie_list]
     return jsonify(lst)
 
-
+# stupid dhruv
 @app.route("/")
 def pls_work():
     return render_template("index.html")
