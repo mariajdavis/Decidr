@@ -7,4 +7,7 @@ ulist = [13, 276, 303]
 #     if df2.item.size > 100:
 #         print(f'{i} : {df2.item.size}')
 
+df2 = df.query(f'user == 13')
+print(df2)
+# print(f'{df2.item.size}')
 

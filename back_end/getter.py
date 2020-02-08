@@ -8,8 +8,8 @@ def get_list(user_id, model, movie_data):
 
     while len(movie_list) < 10:
 
-        random_movie = model.sample()
-        movie_id = random_movie.iid
+        random_movie = movie_data.sample(1)
+        movie_id = random_movie['Id'].values[0]
 
         rating_object = model.predict(user_id, movie_id)
         rating = rating_object.est
