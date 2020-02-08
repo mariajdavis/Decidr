@@ -456,7 +456,7 @@ ol {
 
 .single-slide {
 	height: 895px;
-	padding-top: 343px;
+	padding-top: 193px;
 	text-align: center;
 }
 
@@ -967,7 +967,10 @@ ol {
 .footer-content .footer-icon-img {
 	margin-bottom: 32px;
 }
-
+.footer-icon-img{
+	width: 20%;
+	height: auto;
+}
 .footer-content .copyright {
 	color: #fff;
 	font-size: 13px;
@@ -2140,7 +2143,7 @@ ol {
 		padding: 0;
 	}
 	.slicknav_nav {
-		background: #222;
+		background: #ff5757;
 		padding: 25px;
 	}
 	.slicknav_btn {
@@ -2183,10 +2186,11 @@ ol {
 	}
 	.search-btn:hover {
 		background: #ccc;
-		color: #222;
+		color: #ff5757;
 	}
 	.single-slide h1 {
 		font-size: 65px;
+		padding: 30px;
 	}
 	.features-section .single-features {
 		text-align: center;
