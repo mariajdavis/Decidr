@@ -1,9 +1,11 @@
 from flask import Flask, jsonify
 import json
 from filter import get_trained_model
+import pandas as pd
 
 app = Flask(__name__)
 MODEL = get_trained_model()
+MOVIES = pd.read_csv('dataset//movies.csv')
 
 
 @app.route('/<user_id>/<mood>/<company>')
