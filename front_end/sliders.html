@@ -89,28 +89,35 @@
     <section class="hero-slider">
         <div class="slide-items owl-carousel">
             <div class="single-slide set-bg active" data-setbg="img/bg.jpg">
-                
-                <h1>Choose a movie </br>in 5 seconds!</h1>
-                <div class="member-signup-btn">
-                    <a href="login.html" class="primary-btn">Sign up Now</a>
+                <h1>What is happening?</h1>
+                <form>
+                    <div class="moodBox">
+                  
+                <h4>What's your mood right now?</h4>
+                <input type="range" class="custom-range" min="0" max="4" id="mood">
+                <div class="options">
+                  <span class="min">&#128543</span>
+                  <span class="max">&#128516</span>
                 </div>
-                <!-- <a href="#" class="primary-btn">Read More</a> -->
-            </div>
-            <div class="single-slide set-bg" data-setbg="img/bg-2.jpg">
-                
-                <h1>Choose a tv show </br> 5 seconds!</h1>
-                <div class="member-signup-btn">
-                    <a href="login.html" class="primary-btn">Sign up Now</a>
+              </div>
+              <div class="moodBox">
+                <h4>How tired are you?</h4>
+                <input type="range" class="custom-range" min="0" max="4" id="tired">
+                <div class="options">
+                  <span class="min">Not at all</span><span class="max">Very</span>
                 </div>
-                <!-- <a href="#" class="primary-btn">Read More</a> -->
-            </div>
-            <div class="single-slide set-bg" data-setbg="img/bg-3.jpg">
-                
-                <h1>The perfect </br> friday night in 5 seconds!</h1>
-                <div class="member-signup-btn">
-                    <a href="login.html" class="primary-btn">Sign up Now</a>
+              </div>
+              <div class="moodBox">
+                <h4>How many people are watching?</h4>
+                <input type="range" class="custom-range" min="0" max="2" id="people">
+                <div class="options">
+                  <span class="min">Just me</span><span class="max">5+</span>
                 </div>
-                <!-- <a href="#" class="primary-btn">Read More</a> -->
+              </div>
+              <div class="text-center">
+                <a href="recommendation.html" class="primary-btn">Submit</a>
+              </div>
+                  </form>
             </div>
         </div>
     </section>
