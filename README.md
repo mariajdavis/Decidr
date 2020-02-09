@@ -1,4 +1,5 @@
 # DECIDR - Life Hacks 2020 - 1st Place Project
+![logo](https://github.com/mariajdavis/Decidr/logo.png "Logo")
 
 ## Elevator Pitch
 5-second situation-specific recommendation engine for movies
