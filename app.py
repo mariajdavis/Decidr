@@ -9,6 +9,7 @@ MODEL = get_model()
 MOVIES = pd.read_csv('dataset//movies.csv')
 
 
+# Valid user_ids: 13 and 276
 @app.route('/<user_id>/<mood>/<company>')
 def send_all(user_id, mood, company):
     movie_list = list()
@@ -30,7 +31,7 @@ def send_all(user_id, mood, company):
         movie_list = get_list(user_id*100+5, MODEL, MOVIES)
 
     """ endpoint: takes HTTP request and return movie recommendation(s) """
-    lst = [int(i) for i in movie_list]
+    lst = [MOVIES.query(f'Id=={i}')['Title']._values[0] for i in movie_list]
     return jsonify(lst)
 
 
@@ -42,6 +43,10 @@ def pls_work():
 @app.route("/login")
 def login():
     return render_template("elements.html")
+
+@app.route('/sliders/<uid>')
+def sliders(uid):
+
 
 
 if __name__ == '__main__':

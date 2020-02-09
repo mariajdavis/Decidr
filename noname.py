@@ -1,7 +1,7 @@
 import pandas as pd
 
 df = pd.read_csv("dataset//training_data.csv")
-ulist = [13, 276, 303]
+ulist = [13, 276]
 
 df2 = df.query(f'user == 276')
 l1 = list()
