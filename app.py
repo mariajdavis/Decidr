@@ -39,5 +39,10 @@ def pls_work():
     return render_template("index.html")
 
 
+@app.route("/login")
+def pls_work_again():
+    return render_template("login.html")
+
+
 if __name__ == '__main__':
     app.run(debug=True)
