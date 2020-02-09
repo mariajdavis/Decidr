@@ -5,6 +5,7 @@ from filter import get_model
 import pandas as pd
 from getter import get_list
 
+
 app = Flask(__name__, template_folder="templates",
             static_folder="static", static_url_path="")
 MODEL = get_model()
@@ -34,7 +35,11 @@ def send_all(user_id, mood, company):
 
     """ endpoint: takes HTTP request and return movie recommendation(s) """
     lst = [MOVIES.query(f'Id=={i}')['Title']._values[0] for i in movie_list]
-    return jsonify(lst)
+    print(type(lst))
+    for i in lst:
+        print(i)
+    # return jsonify(lst)
+    return render_template("recommendation.html", movies=lst)
 
 
 @app.route("/")
@@ -44,13 +49,19 @@ def pls_work():
 
 @app.route("/login")
 def login():
-    return render_template("elements.html")
+    return render_template("login.html")
 
 
 @app.route('/sliders')
 def sliders():
-    user = request.form.get('form-username')
-    print(user)
+    # user = request.form.get('form-username')
+    # print(user)
+    return render_template("sliders.html")
+
+
+@app.route('/recommendation')
+def recommendations():
+    return render_template("recommendation.html", movies="")
 
 
 if __name__ == '__main__':

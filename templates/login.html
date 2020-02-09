@@ -73,10 +73,9 @@
               <div class="form-bottom">
                 <form
                   role="form"
-                  action="sliders.html"
-                  method="post"
-                  class="login-form"
                   action="/sliders"
+                  method="get"
+                  class="login-form"
                 >
                   <div class="form-group">
                     <label class="sr-only" for="form-username">Username</label>
@@ -96,11 +95,9 @@
                       placeholder="Password..."
                       class="form-password form-control"
                       id="form-password"
-                    />\
+                    />
                   </div>
-                  <button type="submit" class="btn">
-                    Sign in!
-                  </button>
+                  <button type="submit" class="btn">Sign in!</button>
                 </form>
               </div>
             </div>
@@ -130,18 +127,6 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.backstretch.min.js"></script>
     <script src="assets/js/scripts.js"></script>
-
-    <script>
-      function sendUser() {
-        username = document.getElementById("form-username");
-        console.log(typeof username);
-        console.log(username);
-
-        if (username == "maria") {
-          console.log("3999");
-        }
-      }
-    </script>
 
     <!--[if lt IE 10]>
       <script src="assets/js/placeholder.js"></script>

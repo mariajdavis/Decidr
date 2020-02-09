@@ -3,6 +3,8 @@ from filter import get_model
 import pandas as pd
 from getter import get_list
 
+import request
+
 app = Flask(__name__, template_folder="templates", static_folder="static")
 MODEL = get_model()
 MOVIES = pd.read_csv('dataset//movies.csv')

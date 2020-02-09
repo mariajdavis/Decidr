@@ -13,13 +13,13 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500,700,900" rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/barfiller.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="/css/barfiller.css" type="text/css">
+    <link rel="stylesheet" href="/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
 </head>
 
 <body>
@@ -34,8 +34,8 @@
                 <div class="col-lg-12">
                     <div class="main-menu">
                         <div class="logo">
-                            <a href="./index.html">
-                                <img src="img/logo.png" alt="">
+                            <a href="/index.html">
+                                <img src="/img/logo.png" alt="">
                             </a>
                         </div>
                         <nav class="mobile-menu">
@@ -76,48 +76,57 @@
     <section class="hero-slider">
 
         <div class="slide-items owl-carousel" id="ourpick">
-            <div class="recommendation-single-slide set-bg active" data-setbg="img/bg.jpg">
+            <div class="recommendation-single-slide set-bg active" data-setbg="/img/bg.jpg">
                 <h1 style="font-size:45px;color:white;">Our pick for you:</h1>
                 <!-- <a href="#" class="primary-btn">Read More</a> -->
             </div>
         </div>
 
         <div class="slide-items owl-carousel">
-            <div class="recommendation-single-slide set-bg active" data-setbg="img/bg.jpg">
-                <h2 style="font-size:35px;color:white">Parasite (2019)</h2></br>
-                <img src="img/parasite.png" id="movieimg" alt="Parasite">
+            <div class="recommendation-single-slide set-bg active" data-setbg="/img/bg.jpg">
+                <h2 style="font-size:35px;color:#ED635E">Parasite (2019)</h2></br>
+                <img src="/img/parasite.png" id="movieimg" alt="Parasite">
                 <!-- <a href="#" class="primary-btn">Read More</a> -->
             </div>
         </div>
 
         <div class="slide-items owl-carousel">
-            <div class="recommendation-single-slide set-bg active" data-setbg="img/bg.jpg">
-                <h2 style="font-size:35px;color:white">Snowpiercer (2013)</h2></br>
-                <img src="img/snowpiercer.png" id="movieimg" alt="Snowpiercer">
+            <div class="recommendation-single-slide set-bg active" data-setbg="/img/bg.jpg">
+                <h2 style="font-size:35px;color:#ED635E">Snowpiercer (2013)</h2></br>
+                <img src="/img/snowpiercer.png" id="movieimg" alt="Snowpiercer">
                 <!-- <a href="#" class="primary-btn">Read More</a> -->
             </div>
         </div>
 
         <div class="slide-items owl-carousel">
-            <div class="recommendation-single-slide set-bg active" data-setbg="img/bg.jpg">
-                <h2 style="font-size:35px;color:white">Oldboy (2003)</h2></br>
-                <img src="img/oldboy2.png" id="movieimg" alt="Oldboy">
+            <div class="recommendation-single-slide set-bg active" data-setbg="/img/bg.jpg">
+                <h2 style="font-size:35px;color:#ED635E">Oldboy (2003)</h2></br>
+                <img src="/img/oldboy2.png" id="movieimg" alt="Oldboy">
                 <!-- <a href="#" class="primary-btn">Read More</a> -->
             </div>
         </div>
 
 
+    
     </section>
     <!-- Hero Slider End -->
+    <div class="container-fluid" style="text-align: center">
+        <h3>
+            {% for movie in movies %}
+            <div>{{ movie }}</div>
+            {% endfor %}
+        </h3>    
+    </div>
+
 
     <!-- Footer Section Begin -->
-    <footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
+    <footer class="footer-section set-bg" data-setbg="/img/footer-bg.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer-content">
                         <div class="footer-logo">
-                            <a href="#"><img src="img/logo.png" alt=""></a>
+                            <a href="#"><img src="/img/logo.png" alt="" width="100px" height="100"></a>
                         </div>
 
                         <div class="social-links">
@@ -143,14 +152,14 @@
     <!-- Footer Section End -->
 
     <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/circle-progress.min.js"></script>
-    <script src="js/jquery.barfiller.js"></script>
-    <script src="js/main.js"></script>
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.slicknav.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/circle-progress.min.js"></script>
+    <script src="/js/jquery.barfiller.js"></script>
+    <script src="/js/main.js"></script>
 
 </body>
 
