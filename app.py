@@ -1,3 +1,5 @@
+from urllib import request
+
 from flask import Flask, jsonify, render_template
 from filter import get_model
 import pandas as pd
@@ -9,6 +11,7 @@ MODEL = get_model()
 MOVIES = pd.read_csv('dataset//movies.csv')
 
 
+# Valid user_ids: 13 and 276
 @app.route('/<user_id>/<mood>/<company>')
 def send_all(user_id, mood, company):
     movie_list = list()
@@ -30,18 +33,24 @@ def send_all(user_id, mood, company):
         movie_list = get_list(user_id*100+5, MODEL, MOVIES)
 
     """ endpoint: takes HTTP request and return movie recommendation(s) """
-    lst = [int(i) for i in movie_list]
+    lst = [MOVIES.query(f'Id=={i}')['Title']._values[0] for i in movie_list]
     return jsonify(lst)
 
-# stupid dhruv
+
 @app.route("/")
 def pls_work():
     return render_template("index.html")
 
 
 @app.route("/login")
-def pls_work_again():
-    return render_template("login.html")
+def login():
+    return render_template("elements.html")
+
+
+@app.route('/sliders')
+def sliders():
+    user = request.form.get('form-username')
+    print(user)
 
 
 if __name__ == '__main__':
