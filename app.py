@@ -1,3 +1,5 @@
+from urllib import request
+
 from flask import Flask, jsonify, render_template
 from filter import get_model
 import pandas as pd
@@ -44,8 +46,11 @@ def pls_work():
 def login():
     return render_template("elements.html")
 
-@app.route('/sliders/<uid>')
-def sliders(uid):
+
+@app.route('/sliders')
+def sliders():
+    user = request.form.get('form-username')
+    print(user)
 
 
 
